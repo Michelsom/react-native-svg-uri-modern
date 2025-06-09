@@ -16,11 +16,11 @@ A modern, maintained React Native component to render SVG images from URI or dir
 
 ## Installation
 
-\`\`\`bash
+bash
 npm install react-native-svg-uri-modern react-native-svg
 # or
 yarn add react-native-svg-uri-modern react-native-svg
-\`\`\`
+
 
 ### iOS Setup
 \`\`\`bash
