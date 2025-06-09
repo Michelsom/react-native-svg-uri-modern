@@ -1,14 +1,9 @@
 {
   "name": "react-native-svg-uri-modern",
   "version": "1.0.0",
-  "description": "A modern React Native component to render SVG images from URI - Fork of deprecated react-native-svg-uri",
+  "description": "Modern fork of react-native-svg-uri with updates for current React Native.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "README.md",
-    "LICENSE"
-  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
@@ -17,42 +12,38 @@
     "lint": "eslint src --ext .ts,.tsx",
     "clean": "rimraf lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Michelsom/react-native-svg-uri-modern"
+  },
   "keywords": [
     "react-native",
     "svg",
-    "uri",
     "image",
-    "vector",
-    "react-native-svg",
-    "svg-uri",
+    "uri",
     "modern"
   ],
-  "author": "Michelsom <michelsonpagani@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/Michelsom/react-native-svg-uri-modern#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Michelsom/react-native-svg-uri-modern.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Michelsom/react-native-svg-uri-modern/issues"
-  },
+  "author": "Michelsom",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "vault-development",
+      "url": "https://github.com/vault-development"
+    },
+    {
+      "name": "Michelsom",
+      "url": "https://github.com/Michelsom"
+    }
+  ],
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-native": ">=0.60.0",
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0",
     "react-native-svg": ">=12.0.0"
   },
   "devDependencies": {
-    "@types/react": "^19.1.6",
-    "@types/react-native": "^0.73.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.0.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0",
     "jest": "^29.0.0",
-    "rimraf": "^6.0.1",
-    "typescript": "^5.0.0"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "eslint": "^8.0.0"
   }
 }
