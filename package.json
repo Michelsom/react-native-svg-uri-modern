@@ -1,6 +1,6 @@
 {
   "name": "react-native-svg-uri-modern",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern fork of react-native-svg-uri with updates for current React Native.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
